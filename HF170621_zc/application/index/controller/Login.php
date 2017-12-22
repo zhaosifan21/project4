@@ -34,16 +34,22 @@ class Login extends CheckLogin
                 return ['code'=>3,'msg'=>$login_msg['login_codeError'],'data'=>[]];
             }
             else {
-                //$hash_pwd = password_hash($pwd, PASSWORD_DEFAULT);
-                $where = ['elogid'=>$eid,'epwd'=>md5($pwd)];
+                //$where = ['elogid'=>$eid,'epwd'=>md5($pwd)];
+                $where = ['elogid'=>$eid];
                 $res = Db::name('employee')->where($where)->find();
                 if(empty($res)){
                     return ['code'=>2,'msg'=>$login_msg['login_faild'],'data'=>[]];
                 }
                 else{
-                    Session::set('nowemployee',$res['eid']);
-                    Cookie::set('nowemployee',$res['eid']);
-                    return ['code'=>1,'msg'=>$login_msg['login_success'],'data'=>['url'=>url('index/Link/homepage')]];
+                    $true_pwd = $res['epwd'];
+                    if(password_verify($pwd,$true_pwd)){
+                        Session::set('nowemployee',$res['eid']);
+                        Cookie::set('nowemployee',$res['eid']);
+                        return ['code'=>1,'msg'=>$login_msg['login_success'],'data'=>['url'=>url('index/Link/homepage')]];
+                    }
+                    else{
+                        return ['code'=>2,'msg'=>$login_msg['login_faild'],'data'=>[]];
+                    }
                 }
             }
         }
