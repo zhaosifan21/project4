@@ -10,13 +10,13 @@ use app\index\controller\CheckLogin;
 class Link extends CheckLogin
 {
     //加载登录页面
-    public function loginpage()
+    public function loginPage()
     {
         return $this->fetch();
     }
 
     //加载后台管理页面
-    public function homepage()
+    public function homePage()
     {
         return $this->fetch();
     }
@@ -28,25 +28,25 @@ class Link extends CheckLogin
     }
 
     //员工管理页面
-    public function membermanage()
+    public function memberManage()
     {
         return $this->fetch();
     }
 
     //权限管理页面
-    public function permissionmanage()
+    public function permissionManage()
     {
         return $this->fetch();
     }
 
     //前台用户管理页面
-    public function usermanage()
+    public function userManage()
     {
         return $this->fetch();
     }
 
     //众筹查询管理页面
-    public function crowdfundingmanage()
+    public function crowdfundingManage()
     {
         return $this->fetch();
     }
@@ -57,38 +57,44 @@ class Link extends CheckLogin
         return $this->fetch();
     }
 
-    //未支付订单页面
-    public function ordernotpay()
+    //众筹订单页面
+    public function orderCrowdfunding()
     {
         return $this->fetch();
     }
 
-    //已支付订单页面
-    public function orderpay()
+    //抢购订单页面
+    public function orderFlashsell()
     {
         return $this->fetch();
     }
 
     //操作日志
-    public function dailylog()
+    public function dailyLog()
     {
         return $this->fetch();
     }
 
     //统计报表页面
-    public function showchart()
+    public function showChart()
     {
         return $this->fetch();
     }
 
     //广告管理页面
-    public function admanage()
+    public function adManage()
     {
         return $this->fetch();
     }
 
     //客服页面
     public function custom()
+    {
+        return $this->fetch();
+    }
+
+    //插入省市区
+    public function test()
     {
         return $this->fetch();
     }

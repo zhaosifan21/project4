@@ -1,0 +1,41 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:79:"D:\AppServ\www\HF170621_zc\public/../application/index\view\link\loginpage.html";i:1513933178;}*/ ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="__STATIC__/css/style.css" type="text/css"/>
+<body style="background-color:#b1d2f2">
+<div class="login-container">
+    <h1>众筹网后台系统登录</h1>
+    <form id="loginForm">
+        <div>
+            <input id="eid" type="text" class="username" placeholder="用户名"/>
+        </div>
+        <div>
+            <input id="pwd" type="password" class="password" placeholder="密码"/>
+        </div>
+        <div></div>
+        <div>
+            <input id="code" type="text" class="password" placeholder="验证码,不区分大小写"/>
+        </div>
+        <div style="width:300px;height:40px;margin-top:25px;margin-left:2px">
+            <img id="t_code" width="160" height="40" src="<?php echo captcha_src(); ?>" alt="验证码" onclick="refreshCode(this)"/>
+        </div>
+        <button id="submit" type="button">登录</button>
+    </form>
+</div>
+</body>
+<script>
+    function refreshCode(code)
+    {
+        code.src='<?php echo captcha_src(); ?>';
+    }
+    var homepage_url = '<?php echo url("index/Link/homepage"); ?>';
+    var login_ajax = '<?php echo url("index/Login/login"); ?>';
+</script>
+<script src="__STATIC__/js/jquery-3.2.1.min.js"></script>
+<script src="__STATIC__/js/supersized.3.2.7.min.js"></script>
+<script src="__STATIC__/js/loginpage.js"></script>
+</html>

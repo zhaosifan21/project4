@@ -63,14 +63,15 @@ class Login extends CheckLogin
     {
         Session::delete('nowemployee');
         Cookie::delete('nowemployee');
-        return ['code'=>1001,'msg'=>'您已成功退出','data'=>['url'=>url('index/Link/loginpage')]];
+        return ['code'=>1001,'msg'=>'您已成功退出','data'=>['url'=>url('index/Link/loginPage')]];
     }
 
     //登录后的欢迎页面显示个人角色和信息
     public function welcome()
     {
         $eid = Session::get('nowemployee');
-        $res = Db::name('employee')->alias('a')->join('character b','a.cha_id = b.cha_id')->where('eid',$eid)->find();
+
+        $res = Db::name('employee')->alias('a')->join('zc_character b','a.cha_id = b.cha_id')->where('eid',$eid)->find();
         if(!empty($res)){
             $ename = $res['ename'];
             $cha_name = $res['cha_name'];

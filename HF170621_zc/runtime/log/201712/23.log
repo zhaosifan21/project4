@@ -1,0 +1,1860 @@
+[ 2017-12-23T23:20:11+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.140008s][吞吐率：7.14req/s] [内存消耗：2,847.66kb] [文件加载：60]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'b'[D:\AppServ\www\HF170621_zc\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:20:15+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/crowdfundingManage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：2,091.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'crowdfundingManage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->crowdfundingManage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\crowdfundingManage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:20:16+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.108006s][吞吐率：9.26req/s] [内存消耗：2,847.73kb] [文件加载：60]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.001000s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1066 Not unique table/alias: 'b'[D:\AppServ\www\HF170621_zc\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:20:49+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/crowdfundingManage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html [运行时间：0.068004s][吞吐率：14.70req/s] [内存消耗：2,091.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'crowdfundingManage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->crowdfundingManage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\crowdfundingManage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:20:50+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.154009s][吞吐率：6.49req/s] [内存消耗：2,858.92kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.056003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 1 [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 0,4 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:20:52+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/crowdfundingManage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：2,091.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'crowdfundingManage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->crowdfundingManage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\crowdfundingManage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:20:53+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.218012s][吞吐率：4.59req/s] [内存消耗：2,858.92kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.141008s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 1 [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 0,4 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:20:53+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/crowdfundingManage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,091.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'crowdfundingManage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->crowdfundingManage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\crowdfundingManage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:20:54+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.164010s][吞吐率：6.10req/s] [内存消耗：2,858.92kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 0,4 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:21:16+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/crowdfundingManage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：2,091.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'crowdfundingManage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->crowdfundingManage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\crowdfundingManage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:21:16+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.112006s][吞吐率：8.93req/s] [内存消耗：2,858.92kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 1 [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 0,4 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:21:18+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/crowdfundingManage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：2,091.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'crowdfundingManage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->crowdfundingManage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\crowdfundingManage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:21:18+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.226013s][吞吐率：4.42req/s] [内存消耗：2,858.92kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.119007s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 1 [ RunTime:0.021002s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 0,4 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:21:21+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/homepage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：2,092.02kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'homepage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/loginpage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->homePage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\homepage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:21:21+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/welcome.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/welcome.html [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：2,092.03kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->welcome[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:21:21+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/static/css/bootstrap.min.css.map
+[ log ] 127.0.0.1/HF170621_zc/public/static/css/bootstrap.min.css.map [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：1,700.59kb] [文件加载：45]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:21:21+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/Login/welcome.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Login/welcome.html [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：2,738.69kb] [文件加载：54]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/welcome.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->welcome[ D:\AppServ\www\HF170621_zc\application\index\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_employee` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `zc_employee` `a` INNER JOIN `zc_character` `b` ON `a`.`cha_id`=`b`.`cha_id` WHERE  `eid` = 10001 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:21:23+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/crowdfundingManage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：2,091.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'crowdfundingManage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->crowdfundingManage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\crowdfundingManage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:21:23+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.097006s][吞吐率：10.31req/s] [内存消耗：2,858.92kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 0,4 [ RunTime:0.013001s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:21:25+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=2
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=2 [运行时间：0.098006s][吞吐率：10.20req/s] [内存消耗：2,858.95kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 1 [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 4,4 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:21:26+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.113006s][吞吐率：8.85req/s] [内存消耗：2,858.92kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 1 [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` LIMIT 0,4 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:23:31+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/crowdfundingManage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：2,091.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'crowdfundingManage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->crowdfundingManage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\crowdfundingManage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:23:32+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.255015s][吞吐率：3.92req/s] [内存消耗：2,860.52kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.102006s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` LIMIT 1 [ RunTime:0.068004s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname`,`d`.`ctype_name` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` LIMIT 0,4 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:23:34+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=2
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=2 [运行时间：0.109007s][吞吐率：9.17req/s] [内存消耗：2,860.58kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname`,`d`.`ctype_name` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` LIMIT 4,4 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:23:36+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=3
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=3 [运行时间：0.120007s][吞吐率：8.33req/s] [内存消耗：2,860.66kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` LIMIT 1 [ RunTime:0.046002s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname`,`d`.`ctype_name` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` LIMIT 8,4 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:23:39+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=2
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=2 [运行时间：0.180011s][吞吐率：5.56req/s] [内存消耗：2,860.58kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056003s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` LIMIT 1 [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname`,`d`.`ctype_name` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` LIMIT 4,4 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:23:39+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.215012s][吞吐率：4.65req/s] [内存消耗：2,860.52kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` LIMIT 1 [ RunTime:0.087005s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname`,`d`.`ctype_name` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` LIMIT 0,4 [ RunTime:0.002001s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:50:22+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/crowdfundingManage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：2,091.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'crowdfundingManage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->crowdfundingManage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\crowdfundingManage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:50:22+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.180010s][吞吐率：5.56req/s] [内存消耗：2,862.02kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 1 [ RunTime:0.039002s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname`,`d`.`ctype_name`,`e`.`cstate_name` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 0,4 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:50:37+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/crowdfundingManage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：2,091.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'crowdfundingManage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->crowdfundingManage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\crowdfundingManage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:50:37+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.145008s][吞吐率：6.90req/s] [内存消耗：2,862.02kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.031001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 1 [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname`,`d`.`ctype_name`,`e`.`cstate_name` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 0,4 [ RunTime:0.007000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:50:47+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=2
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=2 [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：2,862.06kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname`,`d`.`ctype_name`,`e`.`cstate_name` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 4,4 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:50:47+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=3
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=3 [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：2,862.28kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 1 [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname`,`d`.`ctype_name`,`e`.`cstate_name` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 8,4 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:52:50+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/crowdfundingManage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,091.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'crowdfundingManage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->crowdfundingManage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\crowdfundingManage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:52:51+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.135008s][吞吐率：7.41req/s] [内存消耗：2,862.02kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname`,`d`.`ctype_name`,`e`.`cstate_name` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 0,4 [ RunTime:0.060003s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:55:10+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/crowdfundingManage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：2,091.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'crowdfundingManage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->crowdfundingManage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\crowdfundingManage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:55:10+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.094006s][吞吐率：10.64req/s] [内存消耗：2,862.02kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname`,`d`.`ctype_name`,`e`.`cstate_name` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 0,4 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:57:05+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/flashsell.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/flashsell.html [运行时间：0.134008s][吞吐率：7.46req/s] [内存消耗：2,022.69kb] [文件加载：51]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'flashsell',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->flashsell[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\flashsell.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:57:06+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/static/css/bootstrap.min.css.map
+[ log ] 127.0.0.1/HF170621_zc/public/static/css/bootstrap.min.css.map [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：1,700.59kb] [文件加载：45]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'css',
+    2 => 'bootstrap.min.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:57:06+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/crowdfundingManage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：2,091.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'crowdfundingManage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->crowdfundingManage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\crowdfundingManage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:57:07+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.091005s][吞吐率：10.99req/s] [内存消耗：2,862.02kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021001s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname`,`d`.`ctype_name`,`e`.`cstate_name` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 0,4 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:59:08+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/crowdfundingManage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html [运行时间：0.128008s][吞吐率：7.81req/s] [内存消耗：2,091.72kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'crowdfundingManage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/homepage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->crowdfundingManage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\crowdfundingManage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:59:08+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.190010s][吞吐率：5.26req/s] [内存消耗：2,862.97kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037002s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 1 [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname`,`d`.`ctype_name`,`e`.`cstate_name` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 0,5 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2017-12-23T23:59:20+08:00 ] 127.0.0.1 127.0.0.1 GET /HF170621_zc/public/index.php/index/Link/crowdfundingManage.html
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html [运行时间：0.056004s][吞吐率：17.86req/s] [内存消耗：2,091.84kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Link',
+    2 => 'crowdfundingManage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Link->crowdfundingManage[ D:\AppServ\www\HF170621_zc\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\HF170621_zc\public/../application/index\view\link\crowdfundingManage.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-23T23:59:20+08:00 ] 127.0.0.1 127.0.0.1 POST /HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1
+[ log ] 127.0.0.1/HF170621_zc/public/index.php/index/CrowdfundingManage/showCrowdfunding.html?nowpage=1 [运行时间：0.144008s][吞吐率：6.94req/s] [内存消耗：2,862.97kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\HF170621_zc\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'CrowdfundingManage',
+    2 => 'showCrowdfunding',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/HF170621_zc/public/index.php/index/Link/crowdfundingManage.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=e2o7om5ndcd2lvcf87hfmk27u0; nowemployee=10001',
+)
+[ info ] [ PARAM ] array (
+  'nowpage' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\CrowdfundingManage->showCrowdfunding[ D:\AppServ\www\HF170621_zc\application\index\controller\CrowdfundingManage.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.030001s ] mysql:dbname=hf1706_crowdfunding;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `zc_crowdfunding` [ RunTime:0.035002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `a`.*,`b`.`uid`,`c`.`uname`,`d`.`ctype_name`,`e`.`cstate_name` FROM `zc_crowdfunding` `a` INNER JOIN `zc_originator` `b` ON `a`.`cid`=`b`.`cid` INNER JOIN `zc_user` `c` ON `b`.`uid`=`c`.`uid` INNER JOIN `zc_crowdfunding_type` `d` ON `a`.`ctype_id`=`d`.`ctype_id` INNER JOIN `zc_crowdfunding_state` `e` ON `a`.`cstate_id`=`e`.`cstate_id` LIMIT 0,5 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------

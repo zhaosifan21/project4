@@ -2,6 +2,7 @@
  * Created by Administrator on 2017/12/22.
  */
 //后台获取个人信息
+console.log(welcome_ajax);
 $.ajax({
     type:'post',
     url:welcome_ajax,

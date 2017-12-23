@@ -14,13 +14,13 @@ var menu_vue = new Vue({
         init:function(){
             this.mypermission = [
                 {mid:1,mname:'系统管理',fid:0,url:'#',smenu:[
-                    {mid:2,mname:'员工管理',fid:1,url:'membermanage.html'},
-                    {mid:3,mname:'权限管理',fid:1,url:'permissionmanage.html'},
-                    {mid:4,mname:'前台用户管理',fid:1,url:'usermanage.html'}
+                    {mid:2,mname:'员工管理',fid:1,url:'memberManage.html'},
+                    {mid:3,mname:'权限管理',fid:1,url:'permissionManage.html'},
+                    {mid:4,mname:'前台用户管理',fid:1,url:'userManage.html'}
                 ]},
                 {mid:5,mname:'众筹管理',fid:0,url:'#',smenu:[
-                    {mid:6,mname:'众筹查询审核',fid:5,url:'crowdfundingmanage.html'},
-                    {mid:7,mname:'限时抢购发布',fid:5,url:'loginpage.html'}
+                    {mid:6,mname:'众筹查询审核',fid:5,url:'crowdfundingManage.html'},
+                    {mid:7,mname:'限时抢购发布',fid:5,url:'flashsell.html'}
                 ]}
             ]
         }

@@ -80,20 +80,13 @@
     <div id="iframe_box" class="Hui-article">
         <div class="show_iframe">
             <div style="display:none" class="loading"></div>
-            <iframe scrolling="yes" frameborder="0" src="welcome.html"></iframe>
+            <iframe scrolling="yes" frameborder="0" src='{:url("index/Link/welcome")}'></iframe>
         </div>
     </div>
 </section>
-
-<div class="contextMenu" id="Huiadminmenu">
-    <ul>
-        <li id="closethis">关闭当前 </li>
-        <li id="closeall">关闭全部 </li>
-    </ul>
-</div>
 <!--_footer 作为公共模版分离出去-->
 <script src="__STATIC__/lib/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="__STATIC__/lib/layer/2.4/layer.js"></script>
+<script src="__STATIC__/lib/layer/2.4/layer.js"></script>
 <script type="text/javascript" src="__STATIC__/static/h-ui/js/H-ui.min.js"></script>
 <script type="text/javascript" src="__STATIC__/static/h-ui.admin/js/H-ui.admin.js"></script>
 <script src="__STATIC__/js/jquery.cookie.js"></script>
@@ -166,7 +159,7 @@
 
 </script>
 <script>
-    var back_loginpage_url = '{:url("index/Link/loginpage")}';
+    var back_loginpage_url = '{:url("index/Link/loginPage")}';
     var logout_ajax = '{:url("index/Login/logout")}';
 </script>
 <script src="__STATIC__/js/homepage.js"></script>

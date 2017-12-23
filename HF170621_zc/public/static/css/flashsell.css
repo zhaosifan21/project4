@@ -1,0 +1,170 @@
+#upform{
+    width:840px;
+    height: 400px;
+    margin:40px auto;
+    font-size: 16px;
+}
+
+/********************商品发布左侧**********************/
+#form_left{
+    width: 420px;
+    height: 300px;
+    float: left;
+}
+#form1{
+    width: 400px;
+    height: 40px;
+    float: left;
+}
+#gname0{
+    width: 80px;
+    float: left;
+    line-height: 40px;
+}
+#gname{
+    width: 308px;
+    height: 40px;
+    float: left;
+    border: 1px solid darkgray;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 40px;
+}
+#form2{
+    width: 400px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+}
+#starttime0{
+    width: 80px;
+    float: left;
+    line-height: 40px;
+}
+#starttime{
+    width: 308px;
+    height: 40px;
+    float: left;
+    border: 1px solid darkgray;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 40px;
+}
+#form3{
+    width: 400px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+}
+#endtime0{
+    width: 80px;
+    float: left;
+    line-height: 40px;
+}
+#endtime{
+    width: 308px;
+    height: 40px;
+    float: left;
+    border: 1px solid darkgray;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 40px;
+}
+#form4{
+    width: 400px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+}
+#gprice0{
+    width: 80px;
+    float: left;
+    line-height: 40px;
+}
+#gprice{
+    width: 308px;
+    height: 40px;
+    float: left;
+    border: 1px solid darkgray;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 40px;
+}
+#form5{
+    width: 400px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+}
+#gnum0{
+    width: 80px;
+    float: left;
+    line-height: 40px;
+}
+#gnum{
+    width: 308px;
+    height: 40px;
+    float: left;
+    border: 1px solid darkgray;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+/********************商品发布右侧**********************/
+#form_right{
+    width: 420px;
+    height: 300px;
+    float: left;
+}
+#form_uppic{
+    width: 420px;
+    height: 40px;
+    float: left;
+}
+#gpic0{
+    width: 80px;
+    float: left;
+    line-height: 40px;
+}
+#gpic{
+    height: 40px;
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+/********************商品发布下方**********************/
+
+#form_intro{
+    width: 740px;
+    height: 40px;
+    float: left;
+}
+#intro0{
+    width: 80px;
+    float: left;
+    line-height: 40px;
+}
+#intro{
+    width: 648px;
+    height: 40px;
+    float: left;
+    border: 1px solid darkgray;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 40px;
+}
+#form_submit{
+    width: 80px;
+    height: 40px;
+    float: left;
+}
+#sub_button{
+    width: 80px;
+    height: 40px;
+    border: none;
+    background-color: #0f9ae0;
+    font-size: 16px;
+    line-height: 40px;
+}
